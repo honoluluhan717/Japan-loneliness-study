@@ -1,0 +1,38 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}\\Client\C$\Stata_sample_Yihan.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}26 Apr 2019, 20:33:42
+
+{com}. do "C:\Users\wangaar\AppData\Local\Temp\STD00000000.tmp"
+{txt}
+{com}. 
+. ***************************************************************
+. *
+. * research paper. Uses and Grafitications of Mobile Phones
+. * and Loneliness among Japanese Middle-aged and Older Adults 
+. *
+. ***************************************************************
+. 
+. //program: Stata 14 SE 
+. //task: data management and modeling 
+. //author: Yihan Wang / 2018-03-19
+. 
+. ***0.program setup 
+. 
+. clear all 
+{txt}
+{com}. set linesize 80
+{txt}
+{com}. macro drop _all 
+{txt}
+{com}. 
+. ***1.open data 
+. 
+. cd "L:\Cyberpsychology, Behavior, and Social Networking"
+{res}L:\Cyberpsychology, Behavior, and Social Networking
+{txt}
+{com}. capture log close 
+{smcl}
+{com}{sf}{ul off}
